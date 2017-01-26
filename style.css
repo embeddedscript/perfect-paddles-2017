@@ -62,12 +62,13 @@ header {
 }
 
 .h1-small {
-  font-size: 55px;
+  font-size: 53px;
   padding-top: 30px;
 }
 
 h1 {
   color: #ffffff;
+  text-shadow: 2px 2px #818181;
   font-family: 'Pacifico';
   font-style: normal;
   font-weight: normal;
@@ -81,6 +82,7 @@ h1 {
 
 h2 {
   color: #ffffff;
+  text-shadow: 1px 1px #818181;
   font-family: 'Karla';
   font-size: 30px;
   font-style: normal;
