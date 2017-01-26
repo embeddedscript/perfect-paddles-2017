@@ -51,9 +51,28 @@ header {
 }
 
 .logo {
+  float: left;
   height: 40px;
   margin-top: 5px;
-  margin-left: 30px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  float: right;
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+}
+
+section{
+  display: inline-block;
+  margin-top: 5%;
+  width: 100%;
 }
 
 .h1-large {
@@ -96,20 +115,15 @@ h2 {
   word-spacing: auto;
 }
 
-article{
-  display: inline-block;
-  margin-top: 5%;
-  width: 100%;
-}
-
-p {
-  color: #000000;
-  font-size: 16px;
-  font-style: italic;
+a {
+  color: #ffffff;
+  font-family: 'Karla';
+  font-size: 13px;
+  font-style: normal;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-align: center;
+  line-height: 0px;
   text-decoration: none;
-  text-transform: none;
-  word-spacing: 15px;
+  text-transform: uppercase;
 }
