@@ -6,6 +6,11 @@ body {
     background-size: cover;
 }
 
+@font-face {
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico.ttf');
+}
+
 header {
     display: block;
     position: fixed;
@@ -25,17 +30,16 @@ header {
 
 h1 {
   color: #ffffff;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-family: 'Pacifico';
+  font-size: 140px;
   font-style: normal;
   font-weight: bold;
-  letter-spacing: 2px;
-  text-align: left;
-  padding-left: 30px;
-  padding-top: 5px;
+  letter-spacing: auto;
+  text-align: center;;
+  padding-top: 30px;
   text-decoration: none;
-  text-transform: uppercase;
-  word-spacing: 12px;
+  text-transform: none;
+  word-spacing: auto;
 }
 
 article{
