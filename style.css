@@ -140,3 +140,17 @@ a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+p {
+  color: #2d2d2d;
+  font-family: arial;
+  font-size: 16px;
+  line-height: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 22.5%;
+  padding-right: 22.5%;
+  text-align: center;
+}
