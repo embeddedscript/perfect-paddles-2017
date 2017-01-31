@@ -1,9 +1,6 @@
 body {
-    background: #969696 url('images/kayak-bkgd.jpg') no-repeat center top fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: #ffffff url('images/kayak-bkgd.jpg') no-repeat center top scroll;
+    background-size: 100% auto;
 }
 
 @font-face {
@@ -112,6 +109,21 @@ h2 {
   padding-top: 30px;
   text-decoration: none;
   text-transform: uppercase;
+  word-spacing: auto;
+}
+
+h3 {
+  color: #2d2d2d;
+  font-family: 'Pacifico';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: auto;
+  text-align: center;
+  line-height: 0px;
+  padding-top: 30%;
+  text-decoration: none;
+  text-transform: none;
   word-spacing: auto;
 }
 
