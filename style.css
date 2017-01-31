@@ -166,7 +166,11 @@ p {
 }
 
 .promo-images img {
-  width: 31%;
+  width: 95%;
   margin: .5em 0;
   box-shadow: 1px 0px 5px 1px #666;
+}
+
+@media screen and (min-width: 600px) {
+     .promo-images img {width: 31%;}
 }
