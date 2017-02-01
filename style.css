@@ -69,18 +69,26 @@ li {
 
 section{
   display: inline-block;
-  margin-top: 5%;
+  margin-top: 11%;
   width: 100%;
 }
 
+.container{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 10%;
+  font-size: 7.8px;
+}
+
 .h1-large {
-   font-size: 140px;
+   font-size: 10em;
    padding-top: 0px;
 }
 
 .h1-small {
-   font-size: 53px;
-   padding-top: 30px;
+   font-size: 3.9em;
+   padding-top: 3%;
 }
 
 h1 {
@@ -101,13 +109,13 @@ h2 {
   color: #ffffff;
   text-shadow: 1px 1px #818181;
   font-family: 'Karla';
-  font-size: 30px;
+  font-size: 2.5em;
   font-style: normal;
   font-weight: normal;
   letter-spacing: auto;
   text-align: center;
   line-height: 0px;
-  padding-top: 30px;
+  padding-top: 3%;
   text-decoration: none;
   text-transform: uppercase;
   word-spacing: auto;
@@ -122,7 +130,7 @@ h3 {
   letter-spacing: auto;
   text-align: center;
   line-height: 0px;
-  padding-top: 30%;
+  padding-top: 30px;
   text-decoration: none;
   text-transform: none;
   word-spacing: auto;
@@ -173,4 +181,19 @@ p {
 
 @media screen and (min-width: 600px) {
      .promo-images img {width: 31%;}
+}
+
+@media screen and (min-width: 775px) {
+     .container {font-size: 10px; width: 90%; margin-left: 7.5%; margin-right: 7.5%; margin-bottom: 15%;}
+     section{margin-top: 9%;}
+}
+
+@media screen and (min-width: 975px) {
+     .container {font-size: 11.5px; width: 80%; margin-left: 10%; margin-right: 10%; margin-bottom: 22.5%;}
+     section{margin-top: 7%;}
+}
+
+@media screen and (min-width: 1140px) {
+     .container {font-size: 13.5px; margin-bottom: 30%;}
+     section{margin-top: 5%;}
 }
