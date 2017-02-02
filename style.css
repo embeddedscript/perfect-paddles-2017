@@ -158,10 +158,16 @@ p {
   margin-bottom: 2em;
   padding-top: 30px;
   padding-bottom: 20px;
-  text-align: center;
 }
 
 .p-about {
+   text-align: center;
+   padding-left: 22.5%;
+   padding-right: 22.5%;
+}
+
+.p-rentals {
+   text-align: center;
    padding-left: 22.5%;
    padding-right: 22.5%;
 }
@@ -177,6 +183,30 @@ p {
   width: 95%;
   margin: .5em 0;
   box-shadow: 1px 0px 5px 1px #666;
+}
+
+.rentals table {
+  width: 100%;
+  border: 1px solid #cecece;
+  border-collapse: collapse;
+  font-family: Arial;
+  font-size: 16px;
+}
+.rentals th {
+  background: #dddddd;
+  text-align: center;
+  font-weight: bold;
+  padding: .5em 0;
+  border: 1px solid #cecece;
+}
+.rentals td {
+  width: 33%;
+  text-align: center;
+  padding: .5em;
+  border: 1px solid #cecece;
+}
+.rentals td:first-child {
+  text-align: left;
 }
 
 @media screen and (min-width: 600px) {
