@@ -130,10 +130,17 @@ h3 {
   letter-spacing: auto;
   text-align: center;
   line-height: 0px;
-  padding-top: 30px;
   text-decoration: none;
   text-transform: none;
   word-spacing: auto;
+}
+
+.about-header {
+  padding-top: 30px;
+}
+
+.rentals-header {
+  padding-top: 60px;
 }
 
 a {
@@ -167,9 +174,8 @@ p {
 }
 
 .p-rentals {
-   text-align: center;
-   padding-left: 22.5%;
-   padding-right: 22.5%;
+   text-align: left;
+   margin-right: 17.5%;
 }
 
 .promo-images {
@@ -217,11 +223,15 @@ p {
 }
 
 .content {
-  width: 50%;
+  width: 98%;
+  max-height: 300px;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 @media screen and (min-width: 600px) {
      .promo-images img {width: 31%;}
+     .content {width: 48%; margin-left: 1%; margin-right: 1%;}
 }
 
 @media screen and (min-width: 775px) {
