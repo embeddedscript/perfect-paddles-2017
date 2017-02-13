@@ -1,5 +1,5 @@
 body {
-    background: #ffffff url('images/kayak-bkgd.jpg') no-repeat center top scroll;
+    background: #ffffff url('images/kayak-bkgd-mobile.jpg') no-repeat center top scroll;
     background-size: 100% auto;
 }
 
@@ -78,16 +78,18 @@ section{
   margin-left: 2.5%;
   margin-right: 2.5%;
   font-size: 7.8px;
+  text-align: center;
 }
 
 .h1-large {
-   font-size: 10em;
+   font-size: 12vw;
    padding-top: 0px;
 }
 
 .h1-small {
-   font-size: 3.9em;
+   font-size: 6vw;
    padding-top: 0.7em;
+   padding-bottom: 0.7em;
 }
 
 h1 {
@@ -104,7 +106,7 @@ h2 {
   color: #ffffff;
   text-shadow: 1px 1px #818181;
   font-family: 'Karla';
-  font-size: 2.5em;
+  font-size: 4vw;
   font-style: normal;
   font-weight: normal;
   text-align: center;
@@ -121,6 +123,24 @@ h3 {
   font-weight: normal;
   text-align: center;
   line-height: 0px;
+}
+
+.btn-signup {
+  align-self: center;
+  background-color: #e2574c;
+  border-radius: 2em;
+  border: 1px solid #e2574c;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 3vw;
+  padding: .75em;
+}
+
+.btn-signup:hover {
+  background-color: #b64036;
+  border-color: #b64036;
+  color: white;
 }
 
 .about-header {
@@ -230,6 +250,11 @@ p {
 }
 
 @media screen and (min-width: 600px) {
+     body {background: #ffffff url('images/kayak-bkgd.jpg') no-repeat center top scroll; background-size: 100% auto;}
+     .h1-large {font-size: 10vw; padding-top: 0px;}
+     .h1-small {font-size: 3.9vw; padding-top: 0.7em;}
+     h2 {font-size: 2.5vw;}
+     .btn-signup {font-size: 1.7vw;}
      .promo-images img {width: 31%;}
      .content {width: 48%; margin-left: 1%; margin-right: 1%;}
      .p {margin-top: 2em;}
