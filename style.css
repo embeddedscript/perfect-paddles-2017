@@ -210,6 +210,9 @@ p {
 .rentals td:first-child {
   text-align: left;
 }
+.rentals tr:hover {
+  background-color: #fbf6d9;
+}
 
 .rentals-content {
   display: flex;
