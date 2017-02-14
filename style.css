@@ -142,6 +142,13 @@ section{
   padding-bottom: 180px;
 }
 
+h1 {
+  color: #ffffff;
+  text-shadow: 2px 2px #818181;
+  font-family: 'Pacifico';
+  text-align: center;
+}
+
 .h1-large {
    font-size: 12vw;
    padding-top: 0px;
@@ -152,13 +159,6 @@ section{
    font-size: 8vw;
    padding-top: 0.7em;
    padding-bottom: 0.7em;
-}
-
-h1 {
-  color: #ffffff;
-  text-shadow: 2px 2px #818181;
-  font-family: 'Pacifico';
-  text-align: center;
 }
 
 h2 {
@@ -325,7 +325,7 @@ p {
   background-color: #fbf6d9;
 }
 
-.rentals-content {
+.main-content {
   display: flex;
   justify-content: space-around;
   align-items: center;
