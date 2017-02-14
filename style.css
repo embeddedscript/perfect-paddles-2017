@@ -119,6 +119,12 @@ li {
   padding-left: 15px;
 }
 
+.footer-list {
+  display: block;
+	float: right;
+	margin-right: 30px;
+}
+
 .banner {
   background: #ffffff url('images/kayak-bkgd-mobile.jpg') no-repeat center top scroll;
   background-size: cover;
@@ -194,12 +200,15 @@ h3 {
   color: white;
 }
 
+a {
+	color: #ffffff;
+	font-family: 'Karla';
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
 .a-header {
-  color: #ffffff;
-  font-family: 'Karla';
-  font-size: 13px;
   font-weight: bold;
-  letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -208,7 +217,17 @@ h3 {
   color: #e2574c;
   font-family: Arial;
   font-size: 16px;
+	letter-spacing: normal;
   text-decoration: underline;
+}
+
+.a-footer {
+  text-align: left;
+	text-decoration: none;
+}
+
+.a-mail {
+  text-align: left;
 }
 
 p {
@@ -240,6 +259,14 @@ p {
    padding-left: 11.25%;
    padding-right: 11.25%;
    padding-top: 60px;
+}
+
+.p-footer {
+	 color: #ffffff;
+	 font-family: Arial;
+	 font-size: 14px;
+	 margin-left: 10px;
+	 margin-bottom: 10px;
 }
 
 .promo-images {
@@ -306,11 +333,18 @@ p {
   height: 40vh;
 }
 
+footer {
+	display: block;
+	width: 100%;
+	height: auto;
+  background: #222222;
+  padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 50px;
+}
+
 @media screen and (min-width: 600px) {
-  .banner {
-    background: #ffffff url('images/kayak-bkgd.jpg') no-repeat center top scroll;
-    background-size: cover;
-  }
+     .banner {background: #ffffff url('images/kayak-bkgd.jpg') no-repeat center top scroll; background-size: cover;}
      .logo-holder {display: inline;}
      .menu-holder {display: inline;}
      .logo {float: left; margin-left: 25px;}
