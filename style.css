@@ -114,9 +114,8 @@ ul {
 
 li {
   float: right;
-  margin-top: 0px;
-  margin-right: 20px;
-  margin-bottom: 0px;
+  padding-right: 20px;
+  padding-bottom: 5px;
   padding-left: 15px;
 }
 
