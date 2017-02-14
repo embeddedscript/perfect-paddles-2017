@@ -132,17 +132,18 @@ section{
 .container{
   font-size: 7.8px;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 140px;
   padding-bottom: 180px;
 }
 
 .h1-large {
    font-size: 12vw;
    padding-top: 0px;
+	 padding-bottom: 10px;
 }
 
 .h1-small {
-   font-size: 6vw;
+   font-size: 8vw;
    padding-top: 0.7em;
    padding-bottom: 0.7em;
 }
@@ -158,9 +159,9 @@ h2 {
   color: #ffffff;
   text-shadow: 1px 1px #818181;
   font-family: 'Karla';
-  font-size: 4vw;
+  font-size: 5.5vw;
   text-align: center;
-  padding-top: 80px;
+  padding-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -179,7 +180,7 @@ h3 {
   border: 1px solid #e2574c;
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 3vw;
+  font-size: 16px;
   padding: .75em;
 }
 
@@ -213,6 +214,15 @@ p {
   line-height: 2em;
   margin-bottom: 2em;
   padding-bottom: 20px;
+}
+
+.p-banner {
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 1.5em auto;
+    margin-bottom: 3em;
+    padding: 1em;
+    width: 55%;
 }
 
 .p-about {
@@ -292,10 +302,10 @@ p {
      .menu-holder {display: inline;}
      .logo {float: left; margin-left: 25px;}
      li {margin-top: 30px;}
-     .h1-large {font-size: 10vw; padding-top: 0px;}
+     .h1-large {font-size: 10vw; padding-bottom: 15px;}
      .h1-small {font-size: 3.9vw; padding-top: 0.7em;}
      h2 {font-size: 2.5vw;}
-     .btn-signup {font-size: 1.7vw;}
+		 h3 {padding-top: 90px;}
      .promo-images img {width: 31%;}
      .content {width: 48%; margin-left: 1%; margin-right: 1%;}
      .p-about {padding-left: 22.5%; padding-right: 22.5%;}
