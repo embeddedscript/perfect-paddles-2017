@@ -1,50 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    background: #ffffff url('images/kayak-bkgd-mobile.jpg') no-repeat center top scroll;
+    background-size: 100% auto;
 }
 
 @font-face {
@@ -91,21 +47,10 @@ header {
     background-color: #000000;
 }
 
-.logo-holder {
-  display: flex;
-  justify-content: center;
-}
-
-.menu-holder {
-  display: flex;
-  justify-content: center;
-}
-
 .logo {
+  float: none;
   height: 40px;
   margin-top: 5px;
-  margin-left: 0px;
-  margin-bottom: 5px;
 }
 
 ul {
@@ -113,28 +58,21 @@ ul {
 }
 
 li {
-  float: right;
-  margin-top: 0px;
-  margin-right: 20px;
-  margin-bottom: 0px;
-  padding-left: 15px;
-}
-
-.banner {
-  background: #ffffff url('images/kayak-bkgd-mobile.jpg') no-repeat center top scroll;
-  background-size: cover;
+  float: none;
 }
 
 section{
   display: inline-block;
+  margin-top: 10px;
   width: 100%;
 }
 
 .container{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   font-size: 7.8px;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 160px;
 }
 
 .h1-large {
@@ -152,7 +90,10 @@ h1 {
   color: #ffffff;
   text-shadow: 2px 2px #818181;
   font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: normal;
   text-align: center;
+  line-height: 0px;
 }
 
 h2 {
@@ -160,7 +101,10 @@ h2 {
   text-shadow: 1px 1px #818181;
   font-family: 'Karla';
   font-size: 4vw;
+  font-style: normal;
+  font-weight: normal;
   text-align: center;
+  line-height: 0px;
   padding-top: 80px;
   text-transform: uppercase;
 }
@@ -169,8 +113,10 @@ h3 {
   color: #646464;
   font-family: 'Pacifico';
   font-size: 60px;
+  font-style: normal;
+  font-weight: normal;
   text-align: center;
-  padding-top: 60px;
+  line-height: 0px;
 }
 
 .btn-signup {
@@ -179,7 +125,8 @@ h3 {
   border-radius: 2em;
   border: 1px solid #e2574c;
   text-transform: uppercase;
-  color: #ffffff;
+  text-decoration: none;
+  color: white;
   font-size: 3vw;
   padding: .75em;
 }
@@ -190,13 +137,24 @@ h3 {
   color: white;
 }
 
+.about-header {
+  padding-top: 170px;
+}
+
+.rentals-header {
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
+
 .a-header {
   color: #ffffff;
   font-family: 'Karla';
   font-size: 13px;
+  font-style: normal;
   font-weight: bold;
   letter-spacing: 1px;
   text-align: center;
+  line-height: 0px;
   text-transform: uppercase;
 }
 
@@ -212,7 +170,9 @@ p {
   font-family: arial;
   font-size: 16px;
   line-height: 2em;
+  margin-top: 0px;
   margin-bottom: 2em;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
@@ -220,14 +180,12 @@ p {
    text-align: center;
    padding-left: 11.25%;
    padding-right: 11.25%;
-   padding-top: 60px;
 }
 
 .p-rentals {
    text-align: center;
    padding-left: 11.25%;
    padding-right: 11.25%;
-   padding-top: 60px;
 }
 
 .promo-images {
@@ -272,10 +230,10 @@ p {
 
 .rentals-content {
   display: flex;
+  height: 306px;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  max-height: 250px;
 }
 
 .content {
@@ -286,20 +244,37 @@ p {
 }
 
 @media screen and (min-width: 600px) {
-  .banner {
-    background: #ffffff url('images/kayak-bkgd.jpg') no-repeat center top scroll;
-    background-size: cover;
-  }
-     .logo-holder {display: inline;}
-     .menu-holder {display: inline;}
-     .logo {float: left; margin-left: 25px;}
-     li {margin-top: 30px;}
+     body {background: #ffffff url('images/kayak-bkgd.jpg') no-repeat center top scroll; background-size: 100% auto;}
+     .logo {float: left; height: 40px; margin-top: 5px; margin-left: 25px; margin-bottom: 5px;}
+     li {float: right; margin-top: 0px; margin-right: 20px; margin-bottom: 0px; padding-left: 15px;}
      .h1-large {font-size: 10vw; padding-top: 0px;}
      .h1-small {font-size: 3.9vw; padding-top: 0.7em;}
      h2 {font-size: 2.5vw;}
      .btn-signup {font-size: 1.7vw;}
      .promo-images img {width: 31%;}
      .content {width: 48%; margin-left: 1%; margin-right: 1%;}
+     .p {margin-top: 2em;}
      .p-about {padding-left: 22.5%; padding-right: 22.5%;}
-     .p-rentals {text-align: left; padding-left: 10px; padding-right: 30px;}
+     .p-rentals {text-align: left; padding-left: 0%; padding-right: 19%;}
+     .about-header {padding-top: 270px;}
+     .rentals-header {padding-bottom: 30px;}
+}
+
+@media screen and (min-width: 775px) {
+     .container {font-size: 10px; width: 90%; margin-left: 7.5%; margin-right: 7.5%; margin-bottom: 15%;}
+     .h2 {padding-top: 50px;}
+     .about-header {padding-top: 250px;}
+     .rentals-header {padding-bottom: 10px;}
+}
+
+@media screen and (min-width: 1010px) {
+     .container {font-size: 12px; width: 80%; margin-left: 10%; margin-right: 10%; margin-bottom: 22.5%;}
+     .h2 {padding-top: 0px;}
+     .about-header {padding-top: 170px;}
+}
+
+@media screen and (min-width: 1140px) {
+     .container {font-size: 13.5px; margin-bottom: 30%;}
+     .h2 {padding-top: 0px;}
+     .about-header {padding-top: 140px;}
 }
