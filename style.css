@@ -370,7 +370,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -411,8 +411,16 @@ footer ul li {
 		 .p-muted {text-align: left; padding-left: 0px; padding-right: 0px; margin-left: 10px; margin-bottom: 10px;}
      nav {display: flex; flex-grow: 1; flex-shrink: 0; flex-basis: 0; justify-content: flex-end;}
 		 nav ul {width: auto; max-width: auto; margin: 0;}
-		 nav ul li {margin: 0 .5em;}
+		 nav ul li {margin: 0 .5em; font-size: 1em;}
 		 footer nav ul {flex-direction: column; justify-content: flex-start; align-items: flex-start; width: auto;}
 		 footer nav ul li {margin: .25em .5em;}
 		 .social-link-words {display: inline; padding-left: 0.35em;}
+}
+
+@media screen and (min-width: 1140px) {
+	   .a-header {font-size: 15px;}
+		 .btn-signup {font-size: 18px;}
+		 h3 {padding-top: 110px;}
+		 .h3-location {padding-top: 50px;}
+		 nav ul li {font-size: 1.2em;}
 }
