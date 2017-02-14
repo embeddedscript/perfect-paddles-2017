@@ -279,6 +279,12 @@ p {
 	 font-size: 14px;
 }
 
+.p-social {
+	color: #000000;
+	text-align: center;
+	padding-right: 30px;
+}
+
 .promo-images {
   display: flex;
   justify-content: space-around;
@@ -353,6 +359,38 @@ footer {
 	margin-top: 50px;
 }
 
+nav ul {
+  padding: 1em 0;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+}
+
+footer nav ul {
+  justify-content: center;
+}
+
+footer ul li {
+  margin: .5em;
+}
+
+.social-link-words {
+  display: none;
+}
+
 @media screen and (min-width: 600px) {
      .banner {background: #ffffff url('images/kayak-bkgd.jpg') no-repeat center top scroll; background-size: cover;}
      .logo-holder {display: inline;}
@@ -371,4 +409,39 @@ footer {
 		 footer {padding-top: 30px;}
 		 .p-footer {text-align: left; padding-left: 0px; padding-right: 0px; margin-left: 10px; margin-bottom: 10px;}
 		 .p-muted {text-align: left; padding-left: 0px; padding-right: 0px; margin-left: 10px; margin-bottom: 10px;}
+
+		 nav {
+	     display: flex;
+	     flex-grow: 1;
+	     flex-shrink: 0;
+	     flex-basis: 0;
+	     justify-content: flex-end;
+	   }
+
+	   nav ul {
+	     width: auto;
+	     max-width: auto;
+	     margin: 0;
+	   }
+
+	   nav ul li {
+	     margin: 0 .5em;
+	   }
+
+     footer nav ul {
+		  flex-direction: column;
+		  justify-content: flex-start;
+		  align-items: flex-start;
+		  width: auto;
+		 }
+
+		 footer nav ul li {
+		  margin: .25em .5em;
+		}
+
+		.social-link-words {
+      display: inline;
+      padding-left: 0.35em;
+    }
+
 }
